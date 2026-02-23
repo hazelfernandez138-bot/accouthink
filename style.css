@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+body {
+  background: #f9f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+
+
+
+header {
+  background: linear-gradient(to right, #312c36, #221f2a);
+  color: #fff;
+  padding: 30px 0 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 0 0 12px 12px;
+  position: relative;
+}
+
+
+header {
+  background-image: url(cc4.png);
+  background-size: cover;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+
+.logo a:hover {
+  color: #201e36;
+}
+
+
+
+
+.site-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  justify-content: center;
+}
+
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+
+header nav ul li a:hover {
+  color: #10111a;
+}
+
+
+
+
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #191623;
+}
+.modules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 0 10px 10px;
+  align-items: stretch;
+}
+
+
+.module-box {
+  display: flex;
+  justify-content: center;
+}
+
+
+.module-box a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.accordion {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #528cf1;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.accordion:hover {
+  background: #12326d;
+  transform: translateY(-3px);
+}
+
+
+
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+}
+
+
+.nav-bar ul li a {
+  display: block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;font-size: large;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+
+.nav-bar ul li a:hover {
+  background: #575c8f;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+ 
+
+
+
+
+
